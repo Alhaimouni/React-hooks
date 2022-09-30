@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import A1 from './A1';
+import App2 from './App2';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<>{console.log('inside index.js')}<App /></> );
+// root.render(<>{console.log('inside index.js')}<App /></>);                       // useState explination
+root.render(<>{console.log('inside index.js')}{console.log('===============================')}<App2 /></>);                         // useEffect explination
 
 
 // If you want to start measuring performance in your app, pass a function
